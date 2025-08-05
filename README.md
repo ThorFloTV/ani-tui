@@ -1,2 +1,2 @@
 # anilist-tui
-This my my atempt to make an Shell based TUI for Anilist
+This is my atempt to make an Shell based TUI for Anilist
