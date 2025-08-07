@@ -1,4 +1,4 @@
-# anilist-tui
+# ani-tui
 
 **anilist-tui** is a terminal-based TUI written in shell script for managing your [AniList](https://anilist.co/) list from your Terminal.
 
