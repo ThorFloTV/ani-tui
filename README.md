@@ -22,7 +22,7 @@ sudo apt install -y bash curl jq fzf awk
 ```
 #### Arch Linux
 ```Bash
-sudo pacman -Syu --needed bash curl jq fzf gawk
+sudo pacman -Sy --needed bash curl jq fzf gawk
 ```
 ---
 
