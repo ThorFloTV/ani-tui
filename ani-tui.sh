@@ -1,7 +1,5 @@
 #!/bin/bash
 
-CLIENT_ID="29126"
-REDIRECT_URI="https://anilist.co/api/v2/oauth/pin"
 TOKEN_FILE="$HOME/.anilist_token.json"
 
 login() {
@@ -11,14 +9,13 @@ login() {
   echo "https://anilist.co/api/v2/oauth/authorize?client_id=29126&response_type=token"
   echo
 
-  read -rp "Paste your Full Token hereu: " access_token </dev/tty
+  read -rp "Paste your Full Token here: " access_token </dev/tty
 
   if [[ -z "$access_token" ]]; then
     echo "Error: Could not extract access token from the URL."
     exit 1
   fi
 
-  # Save token to file
   jq -n --arg token "$access_token" '{"access_token": $token}' > "$TOKEN_FILE"
 
   echo "Logged in successfully!"
@@ -219,7 +216,6 @@ update_anime_entry() {
         ;;
       
       "Update Episode Progress")
-        # Fetch total episodes and current progress
         query_info='query ($mediaId: Int) {
           Media(id: $mediaId) {
             episodes
@@ -371,7 +367,7 @@ update_anime_progress() {
     echo "Failed to update progress."
     echo "$response" | jq
   else
-    echo "rogress updated to: $progress"
+    echo "Progress updated to: $progress"
   fi
 
   read -rp "Press Enter to continue..." </dev/tty
