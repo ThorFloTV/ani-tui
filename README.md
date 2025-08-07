@@ -24,13 +24,9 @@ sudo apt install -y bash curl jq fzf awk
 ```Bash
 sudo pacman -Syu --needed bash curl jq fzf gawk
 ```
-#### MacOS (with [Homebrew](https://brew.sh/))
-```Bash
-brew install bash curl jq fzf gawk
-```
 ---
 
-### Installation Linux/ MacOS
+### Installation
 
 ```bash
 sudo curl -sL github.com/ThorFloTV/ani-tui.sh -o /usr/local/bin/ani-tui &&
