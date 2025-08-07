@@ -29,7 +29,7 @@ sudo pacman -Syu --needed bash curl jq fzf gawk
 ### Installation
 
 ```bash
-sudo curl -sL github.com/ThorFloTV/ani-tui.sh -o /usr/local/bin/ani-tui &&
+sudo curl -sL github.com/ThorFloTV/ani-tui/raw/main/ani-tui.sh -o /usr/local/bin/ani-tui &&
 sudo chmod +x /usr/local/bin/ani-tui
 ```
 ---
