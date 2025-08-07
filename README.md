@@ -1,6 +1,6 @@
 # ani-tui
 
-**anilist-tui** is a terminal-based TUI written in shell script for managing your [AniList](https://anilist.co/) list from your Terminal.
+**ani-tui** is a terminal-based TUI written in shell script for managing your [AniList](https://anilist.co/) list from your Terminal.
 
 ---
 
@@ -33,8 +33,8 @@ brew install bash curl jq fzf gawk
 ### Installation Linux/ MacOS
 
 ```bash
-sudo curl -sL github.com/ThorFloTV/anilist-tui.sh -o /usr/local/bin/anilist-tui &&
-sudo chmod +x /usr/local/bin/anilist-tui
+sudo curl -sL github.com/ThorFloTV/ani-tui.sh -o /usr/local/bin/ani-tui &&
+sudo chmod +x /usr/local/bin/ani-tui
 ```
 ---
 # Credits
