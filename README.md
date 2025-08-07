@@ -35,3 +35,7 @@ brew install bash curl jq fzf gawk
 ```bash
 sudo curl -sL github.com/ThorFloTV/anilist-tui.sh -o /usr/local/bin/anilist-tui &&
 sudo chmod +x /usr/local/bin/anilist-tui
+```
+---
+# Credits
+- Anilist API: https://anilist.gitbook.io/anilist-apiv2-docs
