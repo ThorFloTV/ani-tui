@@ -9,7 +9,7 @@
 - `curl`
 - `jq` 
 - `fzf` 
-- `awk` 
+- `timg` 
 
 ---
 
@@ -18,11 +18,11 @@
 #### Ubuntu/ Debian
 ```Bash
 sudo apt update
-sudo apt install -y bash curl jq fzf awk
+sudo apt install -y curl jq fzf timg
 ```
 #### Arch Linux
 ```Bash
-sudo pacman -Sy --needed bash curl jq fzf gawk
+sudo pacman -Sy --needed curl jq fzf timg
 ```
 ---
 
