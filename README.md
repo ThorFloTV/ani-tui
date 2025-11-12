@@ -22,7 +22,7 @@ sudo apt install -y curl jq fzf timg
 ```
 #### Arch Linux
 ```Bash
-sudo pacman -Sy --needed curl jq fzf timg
+sudo pacman -Sy --needed curl jq fzf
 ```
 ---
 
